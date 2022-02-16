@@ -1,2 +1,0 @@
-## mern-learnit
-demo
