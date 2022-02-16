@@ -16,7 +16,7 @@ connectDB()
 const app = express()
 
 app.get('/', (req, res) => res.send('Hello word'))
-app.use('/auth', authRouter)
+app.use('/api/auth', authRouter)
 const PORT = 5000
 
 app.listen(PORT, () => console.log(`server running on port ${PORT}`))
